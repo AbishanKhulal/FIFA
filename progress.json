@@ -1,0 +1,20 @@
+{
+  "pipeline_version": "vox-parts-assemble/2-stage/v4",
+  "project_name": "argentina-world-cup-2026",
+  "target_repo": "https://github.com/AbishanKhulal/FIFA",
+  "branch": "main",
+  "inputs": {
+    "script_sha256": "afd7076b0e39cb3d83b26db45948dffe720c09ec3a9f9987b880ead271f39940",
+    "audio_sha256": "92ef16eb6478021b554f5cdf2d737920501f2ea681e3b79c7fe0a581a8ab3f34",
+    "timestamps_sha256": "717736e04c23e96bf591dc7ce9bcacc190b84f10755a20c73f390aebb804d982",
+    "aspect_ratio": "9:16",
+    "resolution": "4k",
+    "audio_duration_seconds": 58.618776
+  },
+  "steps_completed": [
+    "github-preflight"
+  ],
+  "elements": {},
+  "milestone_pushes": 0,
+  "zip_sha256": null
+}

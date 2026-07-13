@@ -1,0 +1,17 @@
+# Local references and transient generation files
+.references/
+scratch/
+*.tmp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.dev.vars
+*.key
+
+# Python caches
+__pycache__/
+*.py[cod]
