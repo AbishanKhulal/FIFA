@@ -1,0 +1,542 @@
+{
+  "elements/scene1_stop-scrolling-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1314
+    },
+    "metrics": {
+      "alpha_area_px": 1737866,
+      "significant_components": 1,
+      "hole_count": 5,
+      "largest_hole_pct": 0.001,
+      "grayscale_spread_p99": 157.0,
+      "laplacian_variance": 545.73,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "STOP SCROLLING",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene1_argentina-trophy.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass:visual-legitimate-arm-trophy-gap",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 1380,
+      "h": 2336
+    },
+    "metrics": {
+      "alpha_area_px": 1551831,
+      "significant_components": 1,
+      "hole_count": 1,
+      "largest_hole_pct": 8.533,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 4823.2,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 1
+  },
+  "elements/scene2_referee-whistle.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 1593,
+      "h": 2304
+    },
+    "metrics": {
+      "alpha_area_px": 1533309,
+      "significant_components": 1,
+      "hole_count": 44,
+      "largest_hole_pct": 0.01,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 2916.01,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene2_champions-again-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:visual-exact-machine-partial",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1242
+    },
+    "metrics": {
+      "alpha_area_px": 1883411,
+      "significant_components": 1,
+      "hole_count": 3,
+      "largest_hole_pct": 0.0,
+      "grayscale_spread_p99": 197.0,
+      "laplacian_variance": 658.33,
+      "border_alpha_max": 0,
+      "ocr_similarity": 0.727
+    },
+    "ocr_detected": "CHAMPION",
+    "ocr_note": "Deskewed OCR similarity 0.727; 100% visual inspection confirms exact generated label.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene3_stadium-crowd.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1738
+    },
+    "metrics": {
+      "alpha_area_px": 2616323,
+      "significant_components": 1,
+      "hole_count": 118,
+      "largest_hole_pct": 0.029,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 5993.25,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene3_one-massive-party-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1515
+    },
+    "metrics": {
+      "alpha_area_px": 2396994,
+      "significant_components": 1,
+      "hole_count": 2,
+      "largest_hole_pct": 0.0,
+      "grayscale_spread_p99": 129.0,
+      "laplacian_variance": 288.06,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "ONE MASSIVE PARTY",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene4_double-trophy.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 1610,
+      "h": 2304
+    },
+    "metrics": {
+      "alpha_area_px": 2335913,
+      "significant_components": 1,
+      "hole_count": 85,
+      "largest_hole_pct": 0.146,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 5131.78,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene4_back-to-back-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1142
+    },
+    "metrics": {
+      "alpha_area_px": 1603465,
+      "significant_components": 1,
+      "hole_count": 0,
+      "largest_hole_pct": 0,
+      "grayscale_spread_p99": 54.0,
+      "laplacian_variance": 786.43,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "BACK TO BACK",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene5_global-debate.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1738
+    },
+    "metrics": {
+      "alpha_area_px": 2622184,
+      "significant_components": 1,
+      "hole_count": 0,
+      "largest_hole_pct": 0,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 5853.46,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene5_records-shattered-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:visual-exact-machine-partial",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1404
+    },
+    "metrics": {
+      "alpha_area_px": 1994813,
+      "significant_components": 1,
+      "hole_count": 5,
+      "largest_hole_pct": 0.0,
+      "grayscale_spread_p99": 134.0,
+      "laplacian_variance": 747.81,
+      "border_alpha_max": 0,
+      "ocr_similarity": 0.867
+    },
+    "ocr_detected": "CORDS SHATTERED",
+    "ocr_note": "Deskewed OCR similarity 0.867; 100% visual inspection confirms exact generated label.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene6_world-asks.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1760
+    },
+    "metrics": {
+      "alpha_area_px": 2602142,
+      "significant_components": 1,
+      "hole_count": 106,
+      "largest_hole_pct": 0.011,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 8095.44,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene6_greatest-dynasty-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1410
+    },
+    "metrics": {
+      "alpha_area_px": 2185694,
+      "significant_components": 1,
+      "hole_count": 13,
+      "largest_hole_pct": 0.001,
+      "grayscale_spread_p99": 35.0,
+      "laplacian_variance": 684.3,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "GREATEST DYNASTY?",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene7_legendary-squad.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1541
+    },
+    "metrics": {
+      "alpha_area_px": 2398508,
+      "significant_components": 1,
+      "hole_count": 117,
+      "largest_hole_pct": 0.124,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 4626.44,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene7_national-legends-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1301
+    },
+    "metrics": {
+      "alpha_area_px": 1845140,
+      "significant_components": 1,
+      "hole_count": 11,
+      "largest_hole_pct": 0.001,
+      "grayscale_spread_p99": 200.0,
+      "laplacian_variance": 726.33,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "NATIONAL LEGENDS",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene8_fireworks-sunrise.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1714
+    },
+    "metrics": {
+      "alpha_area_px": 2712214,
+      "significant_components": 1,
+      "hole_count": 21,
+      "largest_hole_pct": 0.01,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 6294.2,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene8_for-generations-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1015
+    },
+    "metrics": {
+      "alpha_area_px": 1398128,
+      "significant_components": 1,
+      "hole_count": 15,
+      "largest_hole_pct": 0.0,
+      "grayscale_spread_p99": 149.0,
+      "laplacian_variance": 484.77,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "FOR GENERATIONS",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene9_argentina-question.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:no-readable-text",
+      "watermark": "pass",
+      "grayscale": "pass",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 1363,
+      "h": 2336
+    },
+    "metrics": {
+      "alpha_area_px": 1270836,
+      "significant_components": 1,
+      "hole_count": 0,
+      "largest_hole_pct": 0,
+      "grayscale_spread_p99": 0.0,
+      "laplacian_variance": 3766.72,
+      "border_alpha_max": 0,
+      "ocr_similarity": null
+    },
+    "ocr_detected": "",
+    "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  },
+  "elements/scene9_yes-or-no-stamp.png": {
+    "checks": {
+      "resolution": "pass",
+      "alpha": "pass",
+      "connectivity": "pass",
+      "holes": "pass",
+      "ocr": "pass:exact-match",
+      "watermark": "pass",
+      "grayscale": "n/a",
+      "sharpness": "pass"
+    },
+    "natural_px": {
+      "w": 2304,
+      "h": 1358
+    },
+    "metrics": {
+      "alpha_area_px": 1819530,
+      "significant_components": 1,
+      "hole_count": 3,
+      "largest_hole_pct": 0.004,
+      "grayscale_spread_p99": 159.0,
+      "laplacian_variance": 711.84,
+      "border_alpha_max": 0,
+      "ocr_similarity": 1.0
+    },
+    "ocr_detected": "YES OR NO?",
+    "ocr_note": "Deskewed multi-pass OCR exact match.",
+    "watermark_hits": [],
+    "regeneration_count": 0
+  }
+}

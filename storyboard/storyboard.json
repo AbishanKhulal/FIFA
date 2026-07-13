@@ -95,12 +95,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene1_stop-scrolling-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1314
+          },
           "label_text": "STOP SCROLLING",
           "accent_hex": "#B23A3A",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "argentina-trophy",
@@ -122,12 +134,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene1_argentina-trophy.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 1380,
+            "h": 2336
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a jubilant Argentina national-team footballer in a plain striped jersey without logos, raising a World Cup-style trophy overhead",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass:visual-legitimate-arm-trophy-gap",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 208
@@ -158,12 +182,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene2_referee-whistle.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 1593,
+            "h": 2304
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a football referee in action blowing a whistle, one arm lifted, no visible logos or text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "champions-again-stamp",
@@ -185,12 +221,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene2_champions-again-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1242
+          },
           "label_text": "CHAMPIONS AGAIN",
           "accent_hex": "#E3B23C",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:visual-exact-machine-partial",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 196
@@ -221,12 +269,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene3_stadium-crowd.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1738
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a dense group of ecstatic football supporters in stadium stands, cheering and crying with joy, confetti in the air, no signs or readable text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "one-massive-party-stamp",
@@ -248,12 +308,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene3_one-massive-party-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1515
+          },
           "label_text": "ONE MASSIVE PARTY",
           "accent_hex": "#C86F5E",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 223
@@ -284,12 +356,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene4_double-trophy.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 1610,
+            "h": 2304
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "two World Cup-style football trophies side by side as monumental editorial objects, no logos, no plaques, no text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "back-to-back-stamp",
@@ -311,12 +395,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene4_back-to-back-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1142
+          },
           "label_text": "BACK TO BACK",
           "accent_hex": "#2E4057",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 166
@@ -347,12 +443,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene5_global-debate.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1738
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a globe surrounded by layered microphones, newspaper pages with only abstract unreadable marks, and excited football pundit silhouettes, no readable text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "records-shattered-stamp",
@@ -374,12 +482,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene5_records-shattered-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1404
+          },
           "label_text": "RECORDS SHATTERED",
           "accent_hex": "#B23A3A",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:visual-exact-machine-partial",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 159
@@ -410,12 +530,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene6_world-asks.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1760
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a diverse crowd of football supporters around a large globe, hands raised in questioning gestures, no signs, no text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "greatest-dynasty-stamp",
@@ -437,12 +569,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene6_greatest-dynasty-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1410
+          },
           "label_text": "GREATEST DYNASTY?",
           "accent_hex": "#8AA48D",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 204
@@ -473,12 +617,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene7_legendary-squad.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1541
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a heroic lineup of Argentina national-team football players in plain striped jerseys without logos, standing shoulder to shoulder in celebration",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "national-legends-stamp",
@@ -500,12 +656,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene7_national-legends-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1301
+          },
           "label_text": "NATIONAL LEGENDS",
           "accent_hex": "#E3B23C",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 173
@@ -536,12 +704,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene8_fireworks-sunrise.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1714
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "Buenos Aires football supporters celebrating in a city street beneath fireworks as dawn breaks, flags rendered without symbols or text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "for-generations-stamp",
@@ -563,12 +743,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene8_for-generations-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1015
+          },
           "label_text": "FOR GENERATIONS",
           "accent_hex": "#C86F5E",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 251
@@ -599,12 +791,24 @@
           "z": 2,
           "render_in_remotion": false,
           "asset": "elements/scene9_argentina-question.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 1363,
+            "h": 2336
+          },
           "label_text": null,
           "accent_hex": null,
           "typography_role": null,
           "visual_description": "a tense Argentina football supporter in a plain striped jersey, hands clasped, looking upward toward a World Cup-style trophy silhouette, no logos, no text",
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
         },
         {
           "beat_id": "yes-or-no-stamp",
@@ -626,12 +830,24 @@
           "z": 5,
           "render_in_remotion": false,
           "asset": "elements/scene9_yes-or-no-stamp.png",
-          "natural_px": null,
+          "natural_px": {
+            "w": 2304,
+            "h": 1358
+          },
           "label_text": "YES OR NO?",
           "accent_hex": "#B23A3A",
           "typography_role": "statement",
           "visual_description": null,
-          "qa": null
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
         }
       ],
       "duration_frames": 180
