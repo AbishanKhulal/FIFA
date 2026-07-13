@@ -21,7 +21,11 @@
     "handoff-v4",
     "style-lock",
     "remotion-source",
-    "voiceover-copy"
+    "voiceover-copy",
+    "remotion-typecheck",
+    "remotion-bundle",
+    "stills-verification",
+    "preview-contact-sheet"
   ],
   "elements": {
     "elements/scene1_stop-scrolling-stamp.png": "qa-passed",
@@ -43,7 +47,8 @@
     "elements/scene9_argentina-question.png": "qa-passed",
     "elements/scene9_yes-or-no-stamp.png": "qa-passed"
   },
-  "milestone_pushes": 4,
+  "milestone_pushes": 6,
   "zip_sha256": null,
-  "handoff_status": "source-ready-still-verification-pending"
+  "handoff_status": "still-verified-package-pending",
+  "still_verification": "9/9 passed at scale 0.5, concurrency 1"
 }

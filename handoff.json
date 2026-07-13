@@ -2,7 +2,7 @@
   "schema_version": "vox-parts-assemble/handoff-v4",
   "generated_utc": "2026-07-13T09:04:43.670222+00:00",
   "project_name": "argentina-world-cup-2026",
-  "status": "source-ready-still-verification-pending",
+  "status": "still-verified-package-pending",
   "repository": {
     "url": "https://github.com/AbishanKhulal/FIFA",
     "branch": "main"
@@ -2153,5 +2153,13 @@
     }
   ],
   "qa_report": "qa_report.json",
-  "storyboard": "storyboard/storyboard.json"
+  "storyboard": "storyboard/storyboard.json",
+  "verification": "verification.json",
+  "verification_summary": {
+    "result": "9/9 scene stills passed",
+    "scale": 0.5,
+    "concurrency": 1,
+    "full_video_render_run": false,
+    "contact_sheet": "previews/contact-sheet.jpg"
+  }
 }

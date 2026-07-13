@@ -1,0 +1,118 @@
+{
+  "verified_utc": "2026-07-13T09:14:27.251180+00:00",
+  "composition_id": "ArgentinaWorldCup2026",
+  "mode": "stills-only",
+  "concurrency": 1,
+  "scale": 0.5,
+  "full_video_render_run": false,
+  "typecheck": "pass",
+  "bundle": "pass",
+  "composition_inspection": "pass",
+  "stills": [
+    {
+      "scene_index": 1,
+      "frame": 66,
+      "time_seconds": 2.2,
+      "path": "previews/scene-01.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "48941120d49ebf4bca6f7aeb3aceb8bacfb8b2efd2efddc34ab677a055f12a9c",
+      "status": "pass"
+    },
+    {
+      "scene_index": 2,
+      "frame": 363,
+      "time_seconds": 12.1,
+      "path": "previews/scene-02.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "77a0e4f66c2834a8667ed7454fc409b139397fd602a535821b99f4747d44797a",
+      "status": "pass"
+    },
+    {
+      "scene_index": 3,
+      "frame": 561,
+      "time_seconds": 18.7,
+      "path": "previews/scene-03.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "ab134ea2c96904417190d58bb71338872bd1f1ab3a957dacc713d25ed302b9b5",
+      "status": "pass"
+    },
+    {
+      "scene_index": 4,
+      "frame": 693,
+      "time_seconds": 23.1,
+      "path": "previews/scene-04.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "6fa7a5df1e64b74d63c3debd6a5bd54c6110b82ea18ad77673761a40784ed975",
+      "status": "pass"
+    },
+    {
+      "scene_index": 5,
+      "frame": 888,
+      "time_seconds": 29.6,
+      "path": "previews/scene-05.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "76a7349427715b389f1213ad1a224897ff579f3aebfbbbafbadc217974a4583c",
+      "status": "pass"
+    },
+    {
+      "scene_index": 6,
+      "frame": 1080,
+      "time_seconds": 36.0,
+      "path": "previews/scene-06.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "01fad079d7b29febeeab2578bd4de232a6b9a4518468fdbf92a1fcf456e4226d",
+      "status": "pass"
+    },
+    {
+      "scene_index": 7,
+      "frame": 1245,
+      "time_seconds": 41.5,
+      "path": "previews/scene-07.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "9f6a8e9a0b7ca55960dce09fcd29ae0b9fc877322dae8708591c4f79e8f3c18e",
+      "status": "pass"
+    },
+    {
+      "scene_index": 8,
+      "frame": 1521,
+      "time_seconds": 50.7,
+      "path": "previews/scene-08.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "4039cf46917eeed6efcac5f97af1ea183943125d4fccaf30f6feb22907b9c106",
+      "status": "pass"
+    },
+    {
+      "scene_index": 9,
+      "frame": 1725,
+      "time_seconds": 57.5,
+      "path": "previews/scene-09.png",
+      "width": 1080,
+      "height": 1920,
+      "scale": 0.5,
+      "sha256": "4e979f28375d70ec578a978eb4acf5308f36134e161e113a417d7496d84faa62",
+      "status": "pass"
+    }
+  ],
+  "contact_sheet": {
+    "path": "previews/contact-sheet.jpg",
+    "public_copy": "public/images/scene-contact-sheet.jpg",
+    "sha256": "37d2e5725522be69694996d58d95418e2b0e07cdd2cb21e11dc5b2939c4f1e1a"
+  },
+  "result": "9/9 scene stills passed"
+}
