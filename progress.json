@@ -54,5 +54,7 @@
   "handoff_status": "complete-packaged",
   "still_verification": "9/9 passed at scale 0.5, concurrency 1",
   "zip_size_bytes": 170228290,
-  "zip_filename": "argentina-world-cup-2026-handoff.zip"
+  "zip_filename": "argentina-world-cup-2026-handoff.zip",
+  "zip_download_url": "https://www.genspark.ai/api/files/s/gqVGUhxO",
+  "milestone_pushes": 8
 }
