@@ -1,0 +1,27 @@
+{
+  "model": "gpt-image-2",
+  "generation_mode": "parallel",
+  "status": "18/18 generated",
+  "regenerations": 1,
+  "assets": {
+    "elements/scene1_stop-scrolling-stamp.png": "https://www.genspark.ai/api/files/s/9bwmXAcb",
+    "elements/scene1_argentina-trophy.png": "https://www.genspark.ai/api/files/s/NiXbWA9O",
+    "elements/scene2_referee-whistle.png": "https://www.genspark.ai/api/files/s/nD38miTB",
+    "elements/scene2_champions-again-stamp.png": "https://www.genspark.ai/api/files/s/3SmUN1O2",
+    "elements/scene3_stadium-crowd.png": "https://www.genspark.ai/api/files/s/FBvRKoiF",
+    "elements/scene3_one-massive-party-stamp.png": "https://www.genspark.ai/api/files/s/8imb03K4",
+    "elements/scene4_double-trophy.png": "https://www.genspark.ai/api/files/s/nN1zhTPw",
+    "elements/scene4_back-to-back-stamp.png": "https://www.genspark.ai/api/files/s/6zlO1hB1",
+    "elements/scene5_global-debate.png": "https://www.genspark.ai/api/files/s/ARKfZLLO",
+    "elements/scene5_records-shattered-stamp.png": "https://www.genspark.ai/api/files/s/CCC86b0M",
+    "elements/scene6_world-asks.png": "https://www.genspark.ai/api/files/s/5prhk3ch",
+    "elements/scene6_greatest-dynasty-stamp.png": "https://www.genspark.ai/api/files/s/5BL2rLCe",
+    "elements/scene7_legendary-squad.png": "https://www.genspark.ai/api/files/s/Z7KE5xKR",
+    "elements/scene7_national-legends-stamp.png": "https://www.genspark.ai/api/files/s/zxLjtN1I",
+    "elements/scene8_fireworks-sunrise.png": "https://www.genspark.ai/api/files/s/iu62Ec6d",
+    "elements/scene8_for-generations-stamp.png": "https://www.genspark.ai/api/files/s/eUfJWrZK",
+    "elements/scene9_argentina-question.png": "https://www.genspark.ai/api/files/s/WuYZH8R7",
+    "elements/scene9_yes-or-no-stamp.png": "https://www.genspark.ai/api/files/s/hKHe7wa3"
+  },
+  "notes": "All URLs are watermark-free outputs. The first scene-1 hero attempt was blocked; one successful regeneration was used."
+}
