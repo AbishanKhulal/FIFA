@@ -2,7 +2,7 @@
   "schema_version": "vox-parts-assemble/handoff-v4",
   "generated_utc": "2026-07-13T09:04:43.670222+00:00",
   "project_name": "argentina-world-cup-2026",
-  "status": "still-verified-package-pending",
+  "status": "complete-packaged",
   "repository": {
     "url": "https://github.com/AbishanKhulal/FIFA",
     "branch": "main"
@@ -2161,5 +2161,9 @@
     "concurrency": 1,
     "full_video_render_run": false,
     "contact_sheet": "previews/contact-sheet.jpg"
+  },
+  "package": {
+    "filename": "argentina-world-cup-2026-handoff.zip",
+    "contents": "Remotion source, public assets, portable elements, voiceover, storyboard, handoff, style pack, QA, and verified stills"
   }
 }

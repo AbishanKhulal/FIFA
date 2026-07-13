@@ -25,7 +25,9 @@
     "remotion-typecheck",
     "remotion-bundle",
     "stills-verification",
-    "preview-contact-sheet"
+    "preview-contact-sheet",
+    "final-contract-validation",
+    "package-prepared"
   ],
   "elements": {
     "elements/scene1_stop-scrolling-stamp.png": "qa-passed",
@@ -47,8 +49,10 @@
     "elements/scene9_argentina-question.png": "qa-passed",
     "elements/scene9_yes-or-no-stamp.png": "qa-passed"
   },
-  "milestone_pushes": 6,
-  "zip_sha256": null,
-  "handoff_status": "still-verified-package-pending",
-  "still_verification": "9/9 passed at scale 0.5, concurrency 1"
+  "milestone_pushes": 7,
+  "zip_sha256": "fb368332856eddbe26e88372425f5ac389ed9c21fc054a3ba9080e18fd43f94a",
+  "handoff_status": "complete-packaged",
+  "still_verification": "9/9 passed at scale 0.5, concurrency 1",
+  "zip_size_bytes": 170228290,
+  "zip_filename": "argentina-world-cup-2026-handoff.zip"
 }
