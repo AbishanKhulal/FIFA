@@ -1,0 +1,2157 @@
+{
+  "schema_version": "vox-parts-assemble/handoff-v4",
+  "generated_utc": "2026-07-13T09:04:43.670222+00:00",
+  "project_name": "argentina-world-cup-2026",
+  "status": "source-ready-still-verification-pending",
+  "repository": {
+    "url": "https://github.com/AbishanKhulal/FIFA",
+    "branch": "main"
+  },
+  "reference": {
+    "repository": "https://github.com/ston6919/vox-style-video",
+    "style_lock": "style/STYLE-LOCK.md",
+    "palette": "style/palette.png"
+  },
+  "video": {
+    "aspect_ratio": "9:16",
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "duration_seconds": 58.618776,
+    "total_frames": 1759,
+    "composition_id": "ArgentinaWorldCup2026"
+  },
+  "audio": {
+    "source_url": "https://www.genspark.ai/api/files/s/ry3IegRc",
+    "duration_seconds": 58.618776,
+    "total_frames": 1759,
+    "sha256": "92ef16eb6478021b554f5cdf2d737920501f2ea681e3b79c7fe0a581a8ab3f34",
+    "project_path": "public/voiceover.mp3",
+    "package_copy": "voiceover.mp3"
+  },
+  "assembly": {
+    "entry": "src/index.ts",
+    "root": "src/Root.tsx",
+    "composition": "src/Video.tsx",
+    "config": "remotion.config.ts",
+    "verification_mode": "stills-only",
+    "verification_scale": 0.5,
+    "concurrency": 1,
+    "full_render_prohibited": true,
+    "asset_base": "public/elements",
+    "notes": "Generated labels are baked into RGBA stamp assets. Elements land on the exact narration word timestamp."
+  },
+  "contracts": {
+    "phrase_coverage_ok": true,
+    "orphaned_segments": [],
+    "max_land_delta_seconds": 0.0,
+    "coverage_max_gap_seconds": 0.55,
+    "clutter_max_full_opacity_pieces": 2,
+    "clutter_cap": 4,
+    "safe_zones_ok": true,
+    "all_assets_qa_passed": true
+  },
+  "scenes": [
+    {
+      "scene_index": 1,
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 6.92,
+      "narration_text": "Stop scrolling! Because if Argentina wins the FIFA World Cup 2026, football may never be the same.",
+      "beats": [
+        {
+          "beat_id": "stop-scrolling-stamp",
+          "concept": "urgent scroll stopper",
+          "piece_type": "stat-stamp",
+          "anchor_word": "Stop",
+          "anchor_word_start": 0.0,
+          "land_at_seconds": 0.0,
+          "entrance_duration_seconds": 0.0,
+          "exit_at_seconds": 6.92,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 19
+          },
+          "size_pct": 42,
+          "rotation_deg": -3,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene1_stop-scrolling-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1314
+          },
+          "label_text": "STOP SCROLLING",
+          "accent_hex": "#B23A3A",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "argentina-trophy",
+          "concept": "Argentina with World Cup trophy",
+          "piece_type": "cutout",
+          "anchor_word": "Argentina",
+          "anchor_word_start": 1.96,
+          "land_at_seconds": 1.96,
+          "entrance_duration_seconds": 0.85,
+          "exit_at_seconds": 8.88,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 53
+          },
+          "size_pct": 60,
+          "rotation_deg": 2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene1_argentina-trophy.png",
+          "natural_px": {
+            "w": 1380,
+            "h": 2336
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a jubilant Argentina national-team footballer in a plain striped jersey without logos, raising a World Cup-style trophy overhead",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass:visual-legitimate-arm-trophy-gap",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 208
+    },
+    {
+      "scene_index": 2,
+      "start_time_seconds": 6.92,
+      "end_time_seconds": 13.46,
+      "narration_text": "Football may never be the same again. Picture this. The final whistle blows. Argentina are world champions once again.",
+      "beats": [
+        {
+          "beat_id": "referee-whistle",
+          "concept": "the decisive final whistle",
+          "piece_type": "cutout",
+          "anchor_word": "final",
+          "anchor_word_start": 8.88,
+          "land_at_seconds": 8.88,
+          "entrance_duration_seconds": 0.85,
+          "exit_at_seconds": 13.46,
+          "exit_style": "out",
+          "enter_from": "left",
+          "final_position": {
+            "x": 42,
+            "y": 53
+          },
+          "size_pct": 58,
+          "rotation_deg": -4,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene2_referee-whistle.png",
+          "natural_px": {
+            "w": 1593,
+            "h": 2304
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a football referee in action blowing a whistle, one arm lifted, no visible logos or text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "champions-again-stamp",
+          "concept": "back-to-back champion declaration",
+          "piece_type": "stat-stamp",
+          "anchor_word": "champions",
+          "anchor_word_start": 11.84,
+          "land_at_seconds": 11.84,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 13.46,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 59,
+            "y": 22
+          },
+          "size_pct": 39,
+          "rotation_deg": 4,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene2_champions-again-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1242
+          },
+          "label_text": "CHAMPIONS AGAIN",
+          "accent_hex": "#E3B23C",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:visual-exact-machine-partial",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 196
+    },
+    {
+      "scene_index": 3,
+      "start_time_seconds": 13.46,
+      "end_time_seconds": 20.88,
+      "narration_text": "The stadium erupts. Millions of fans burst into tears and Buenos Aires transforms into one massive party.",
+      "beats": [
+        {
+          "beat_id": "stadium-crowd",
+          "concept": "stadium eruption and emotional supporters",
+          "piece_type": "cutout",
+          "anchor_word": "erupts",
+          "anchor_word_start": 13.94,
+          "land_at_seconds": 13.94,
+          "entrance_duration_seconds": 0.48,
+          "exit_at_seconds": 20.88,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 54
+          },
+          "size_pct": 68,
+          "rotation_deg": -2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene3_stadium-crowd.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1738
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a dense group of ecstatic football supporters in stadium stands, cheering and crying with joy, confetti in the air, no signs or readable text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "one-massive-party-stamp",
+          "concept": "Buenos Aires becomes one party",
+          "piece_type": "stat-stamp",
+          "anchor_word": "transforms",
+          "anchor_word_start": 18.34,
+          "land_at_seconds": 18.34,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 20.88,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 21
+          },
+          "size_pct": 45,
+          "rotation_deg": 3,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene3_one-massive-party-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1515
+          },
+          "label_text": "ONE MASSIVE PARTY",
+          "accent_hex": "#C86F5E",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 223
+    },
+    {
+      "scene_index": 4,
+      "start_time_seconds": 20.88,
+      "end_time_seconds": 26.4,
+      "narration_text": "Winning two World Cups in a row would make Argentina the team every nation wants to beat.",
+      "beats": [
+        {
+          "beat_id": "double-trophy",
+          "concept": "two consecutive World Cup wins",
+          "piece_type": "cutout",
+          "anchor_word": "two",
+          "anchor_word_start": 21.42,
+          "land_at_seconds": 21.42,
+          "entrance_duration_seconds": 0.54,
+          "exit_at_seconds": 27.56,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 53
+          },
+          "size_pct": 58,
+          "rotation_deg": -3,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene4_double-trophy.png",
+          "natural_px": {
+            "w": 1610,
+            "h": 2304
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "two World Cup-style football trophies side by side as monumental editorial objects, no logos, no plaques, no text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "back-to-back-stamp",
+          "concept": "back-to-back dynasty marker",
+          "piece_type": "stat-stamp",
+          "anchor_word": "row",
+          "anchor_word_start": 22.74,
+          "land_at_seconds": 22.74,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 26.4,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 22
+          },
+          "size_pct": 43,
+          "rotation_deg": 4,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene4_back-to-back-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1142
+          },
+          "label_text": "BACK TO BACK",
+          "accent_hex": "#2E4057",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 166
+    },
+    {
+      "scene_index": 5,
+      "start_time_seconds": 26.4,
+      "end_time_seconds": 31.7,
+      "narration_text": "The football world would explode with debates, records and unforgettable celebrations.",
+      "beats": [
+        {
+          "beat_id": "global-debate",
+          "concept": "global football debate explodes",
+          "piece_type": "cutout",
+          "anchor_word": "explode",
+          "anchor_word_start": 27.56,
+          "land_at_seconds": 27.56,
+          "entrance_duration_seconds": 0.85,
+          "exit_at_seconds": 31.7,
+          "exit_style": "soften",
+          "enter_from": "right",
+          "final_position": {
+            "x": 50,
+            "y": 52
+          },
+          "size_pct": 64,
+          "rotation_deg": 2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene5_global-debate.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1738
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a globe surrounded by layered microphones, newspaper pages with only abstract unreadable marks, and excited football pundit silhouettes, no readable text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "records-shattered-stamp",
+          "concept": "records and debate headline",
+          "piece_type": "stat-stamp",
+          "anchor_word": "records",
+          "anchor_word_start": 29.22,
+          "land_at_seconds": 29.22,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 31.7,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 21
+          },
+          "size_pct": 46,
+          "rotation_deg": -4,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene5_records-shattered-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1404
+          },
+          "label_text": "RECORDS SHATTERED",
+          "accent_hex": "#B23A3A",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:visual-exact-machine-partial",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 159
+    },
+    {
+      "scene_index": 6,
+      "start_time_seconds": 31.7,
+      "end_time_seconds": 38.5,
+      "narration_text": "People everywhere would ask the same question. Has Argentina built the greatest World Cup dynasty of the modern era?",
+      "beats": [
+        {
+          "beat_id": "world-asks",
+          "concept": "the whole world asks one question",
+          "piece_type": "cutout",
+          "anchor_word": "People",
+          "anchor_word_start": 31.7,
+          "land_at_seconds": 31.7,
+          "entrance_duration_seconds": 0.0,
+          "exit_at_seconds": 38.5,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 55
+          },
+          "size_pct": 66,
+          "rotation_deg": -2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene6_world-asks.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1760
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a diverse crowd of football supporters around a large globe, hands raised in questioning gestures, no signs, no text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "greatest-dynasty-stamp",
+          "concept": "the central dynasty question",
+          "piece_type": "stat-stamp",
+          "anchor_word": "greatest",
+          "anchor_word_start": 35.64,
+          "land_at_seconds": 35.64,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 38.5,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 21
+          },
+          "size_pct": 47,
+          "rotation_deg": 3,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene6_greatest-dynasty-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1410
+          },
+          "label_text": "GREATEST DYNASTY?",
+          "accent_hex": "#8AA48D",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 204
+    },
+    {
+      "scene_index": 7,
+      "start_time_seconds": 38.5,
+      "end_time_seconds": 44.26,
+      "narration_text": "Every player in this squad would become a national legend. The streets would be covered in blue and white.",
+      "beats": [
+        {
+          "beat_id": "legendary-squad",
+          "concept": "every squad member becomes a legend",
+          "piece_type": "cutout",
+          "anchor_word": "Every",
+          "anchor_word_start": 38.5,
+          "land_at_seconds": 38.5,
+          "entrance_duration_seconds": 0.0,
+          "exit_at_seconds": 44.26,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 52
+          },
+          "size_pct": 70,
+          "rotation_deg": 2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene7_legendary-squad.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1541
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a heroic lineup of Argentina national-team football players in plain striped jerseys without logos, standing shoulder to shoulder in celebration",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "national-legends-stamp",
+          "concept": "players elevated to national legend status",
+          "piece_type": "stat-stamp",
+          "anchor_word": "legend",
+          "anchor_word_start": 41.16,
+          "land_at_seconds": 41.16,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 44.26,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 20
+          },
+          "size_pct": 43,
+          "rotation_deg": -3,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene7_national-legends-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1301
+          },
+          "label_text": "NATIONAL LEGENDS",
+          "accent_hex": "#E3B23C",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 173
+    },
+    {
+      "scene_index": 8,
+      "start_time_seconds": 44.26,
+      "end_time_seconds": 52.62,
+      "narration_text": "Fireworks would light up the sky. Fans would celebrate until sunrise and the moment would be remembered for generations. But now, it is your turn.",
+      "beats": [
+        {
+          "beat_id": "fireworks-sunrise",
+          "concept": "all-night celebration from fireworks to sunrise",
+          "piece_type": "cutout",
+          "anchor_word": "Fireworks",
+          "anchor_word_start": 44.26,
+          "land_at_seconds": 44.26,
+          "entrance_duration_seconds": 0.0,
+          "exit_at_seconds": 52.62,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 51
+          },
+          "size_pct": 68,
+          "rotation_deg": -2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene8_fireworks-sunrise.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1714
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "Buenos Aires football supporters celebrating in a city street beneath fireworks as dawn breaks, flags rendered without symbols or text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "for-generations-stamp",
+          "concept": "a memory passed through generations",
+          "piece_type": "stat-stamp",
+          "anchor_word": "generations",
+          "anchor_word_start": 50.38,
+          "land_at_seconds": 50.38,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 52.62,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 20
+          },
+          "size_pct": 42,
+          "rotation_deg": 4,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene8_for-generations-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1015
+          },
+          "label_text": "FOR GENERATIONS",
+          "accent_hex": "#C86F5E",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 251
+    },
+    {
+      "scene_index": 9,
+      "start_time_seconds": 52.62,
+      "end_time_seconds": 58.62,
+      "narration_text": "Will Argentina actually win the FIFA World Cup 2026? Comment yes or no below.",
+      "beats": [
+        {
+          "beat_id": "argentina-question",
+          "concept": "Argentina faces the 2026 question",
+          "piece_type": "cutout",
+          "anchor_word": "Argentina",
+          "anchor_word_start": 53.0,
+          "land_at_seconds": 53.0,
+          "entrance_duration_seconds": 0.38,
+          "exit_at_seconds": 58.62,
+          "exit_style": "soften",
+          "enter_from": "bottom",
+          "final_position": {
+            "x": 50,
+            "y": 51
+          },
+          "size_pct": 62,
+          "rotation_deg": -2,
+          "z": 2,
+          "render_in_remotion": false,
+          "asset": "elements/scene9_argentina-question.png",
+          "natural_px": {
+            "w": 1363,
+            "h": 2336
+          },
+          "label_text": null,
+          "accent_hex": null,
+          "typography_role": null,
+          "visual_description": "a tense Argentina football supporter in a plain striped jersey, hands clasped, looking upward toward a World Cup-style trophy silhouette, no logos, no text",
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:no-readable-text",
+            "watermark": "pass",
+            "grayscale": "pass",
+            "sharpness": "pass"
+          }
+        },
+        {
+          "beat_id": "yes-or-no-stamp",
+          "concept": "direct audience vote",
+          "piece_type": "stat-stamp",
+          "anchor_word": "yes",
+          "anchor_word_start": 57.16,
+          "land_at_seconds": 57.16,
+          "entrance_duration_seconds": 0.55,
+          "exit_at_seconds": 58.62,
+          "exit_style": "out",
+          "enter_from": "stamp",
+          "final_position": {
+            "x": 50,
+            "y": 21
+          },
+          "size_pct": 43,
+          "rotation_deg": 3,
+          "z": 5,
+          "render_in_remotion": false,
+          "asset": "elements/scene9_yes-or-no-stamp.png",
+          "natural_px": {
+            "w": 2304,
+            "h": 1358
+          },
+          "label_text": "YES OR NO?",
+          "accent_hex": "#B23A3A",
+          "typography_role": "statement",
+          "visual_description": null,
+          "qa": {
+            "resolution": "pass",
+            "alpha": "pass",
+            "connectivity": "pass",
+            "holes": "pass",
+            "ocr": "pass:exact-match",
+            "watermark": "pass",
+            "grayscale": "n/a",
+            "sharpness": "pass"
+          }
+        }
+      ],
+      "duration_frames": 180
+    }
+  ],
+  "elements": [
+    {
+      "beat_id": "stop-scrolling-stamp",
+      "concept": "urgent scroll stopper",
+      "piece_type": "stat-stamp",
+      "anchor_word": "Stop",
+      "anchor_word_start": 0.0,
+      "land_at_seconds": 0.0,
+      "entrance_duration_seconds": 0.0,
+      "exit_at_seconds": 6.92,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 19
+      },
+      "size_pct": 42,
+      "rotation_deg": -3,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene1_stop-scrolling-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1314
+      },
+      "label_text": "STOP SCROLLING",
+      "accent_hex": "#B23A3A",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 1,
+      "entrance_start_seconds": 0,
+      "dwell_seconds": 6.92,
+      "public_asset": "public/elements/scene1_stop-scrolling-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1314
+        },
+        "metrics": {
+          "alpha_area_px": 1737866,
+          "significant_components": 1,
+          "hole_count": 5,
+          "largest_hole_pct": 0.001,
+          "grayscale_spread_p99": 157.0,
+          "laplacian_variance": 545.73,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "STOP SCROLLING",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "argentina-trophy",
+      "concept": "Argentina with World Cup trophy",
+      "piece_type": "cutout",
+      "anchor_word": "Argentina",
+      "anchor_word_start": 1.96,
+      "land_at_seconds": 1.96,
+      "entrance_duration_seconds": 0.85,
+      "exit_at_seconds": 8.88,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 53
+      },
+      "size_pct": 60,
+      "rotation_deg": 2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene1_argentina-trophy.png",
+      "natural_px": {
+        "w": 1380,
+        "h": 2336
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a jubilant Argentina national-team footballer in a plain striped jersey without logos, raising a World Cup-style trophy overhead",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass:visual-legitimate-arm-trophy-gap",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 1,
+      "entrance_start_seconds": 1.11,
+      "dwell_seconds": 6.92,
+      "public_asset": "public/elements/scene1_argentina-trophy.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass:visual-legitimate-arm-trophy-gap",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 1380,
+          "h": 2336
+        },
+        "metrics": {
+          "alpha_area_px": 1551831,
+          "significant_components": 1,
+          "hole_count": 1,
+          "largest_hole_pct": 8.533,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 4823.2,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 1
+      }
+    },
+    {
+      "beat_id": "referee-whistle",
+      "concept": "the decisive final whistle",
+      "piece_type": "cutout",
+      "anchor_word": "final",
+      "anchor_word_start": 8.88,
+      "land_at_seconds": 8.88,
+      "entrance_duration_seconds": 0.85,
+      "exit_at_seconds": 13.46,
+      "exit_style": "out",
+      "enter_from": "left",
+      "final_position": {
+        "x": 42,
+        "y": 53
+      },
+      "size_pct": 58,
+      "rotation_deg": -4,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene2_referee-whistle.png",
+      "natural_px": {
+        "w": 1593,
+        "h": 2304
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a football referee in action blowing a whistle, one arm lifted, no visible logos or text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 2,
+      "entrance_start_seconds": 8.03,
+      "dwell_seconds": 4.58,
+      "public_asset": "public/elements/scene2_referee-whistle.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 1593,
+          "h": 2304
+        },
+        "metrics": {
+          "alpha_area_px": 1533309,
+          "significant_components": 1,
+          "hole_count": 44,
+          "largest_hole_pct": 0.01,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 2916.01,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "champions-again-stamp",
+      "concept": "back-to-back champion declaration",
+      "piece_type": "stat-stamp",
+      "anchor_word": "champions",
+      "anchor_word_start": 11.84,
+      "land_at_seconds": 11.84,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 13.46,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 59,
+        "y": 22
+      },
+      "size_pct": 39,
+      "rotation_deg": 4,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene2_champions-again-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1242
+      },
+      "label_text": "CHAMPIONS AGAIN",
+      "accent_hex": "#E3B23C",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:visual-exact-machine-partial",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 2,
+      "entrance_start_seconds": 11.29,
+      "dwell_seconds": 1.62,
+      "public_asset": "public/elements/scene2_champions-again-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:visual-exact-machine-partial",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1242
+        },
+        "metrics": {
+          "alpha_area_px": 1883411,
+          "significant_components": 1,
+          "hole_count": 3,
+          "largest_hole_pct": 0.0,
+          "grayscale_spread_p99": 197.0,
+          "laplacian_variance": 658.33,
+          "border_alpha_max": 0,
+          "ocr_similarity": 0.727
+        },
+        "ocr_detected": "CHAMPION",
+        "ocr_note": "Deskewed OCR similarity 0.727; 100% visual inspection confirms exact generated label.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "stadium-crowd",
+      "concept": "stadium eruption and emotional supporters",
+      "piece_type": "cutout",
+      "anchor_word": "erupts",
+      "anchor_word_start": 13.94,
+      "land_at_seconds": 13.94,
+      "entrance_duration_seconds": 0.48,
+      "exit_at_seconds": 20.88,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 54
+      },
+      "size_pct": 68,
+      "rotation_deg": -2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene3_stadium-crowd.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1738
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a dense group of ecstatic football supporters in stadium stands, cheering and crying with joy, confetti in the air, no signs or readable text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 3,
+      "entrance_start_seconds": 13.46,
+      "dwell_seconds": 6.94,
+      "public_asset": "public/elements/scene3_stadium-crowd.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1738
+        },
+        "metrics": {
+          "alpha_area_px": 2616323,
+          "significant_components": 1,
+          "hole_count": 118,
+          "largest_hole_pct": 0.029,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 5993.25,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "one-massive-party-stamp",
+      "concept": "Buenos Aires becomes one party",
+      "piece_type": "stat-stamp",
+      "anchor_word": "transforms",
+      "anchor_word_start": 18.34,
+      "land_at_seconds": 18.34,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 20.88,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 21
+      },
+      "size_pct": 45,
+      "rotation_deg": 3,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene3_one-massive-party-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1515
+      },
+      "label_text": "ONE MASSIVE PARTY",
+      "accent_hex": "#C86F5E",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 3,
+      "entrance_start_seconds": 17.79,
+      "dwell_seconds": 2.54,
+      "public_asset": "public/elements/scene3_one-massive-party-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1515
+        },
+        "metrics": {
+          "alpha_area_px": 2396994,
+          "significant_components": 1,
+          "hole_count": 2,
+          "largest_hole_pct": 0.0,
+          "grayscale_spread_p99": 129.0,
+          "laplacian_variance": 288.06,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "ONE MASSIVE PARTY",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "double-trophy",
+      "concept": "two consecutive World Cup wins",
+      "piece_type": "cutout",
+      "anchor_word": "two",
+      "anchor_word_start": 21.42,
+      "land_at_seconds": 21.42,
+      "entrance_duration_seconds": 0.54,
+      "exit_at_seconds": 27.56,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 53
+      },
+      "size_pct": 58,
+      "rotation_deg": -3,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene4_double-trophy.png",
+      "natural_px": {
+        "w": 1610,
+        "h": 2304
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "two World Cup-style football trophies side by side as monumental editorial objects, no logos, no plaques, no text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 4,
+      "entrance_start_seconds": 20.88,
+      "dwell_seconds": 6.14,
+      "public_asset": "public/elements/scene4_double-trophy.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 1610,
+          "h": 2304
+        },
+        "metrics": {
+          "alpha_area_px": 2335913,
+          "significant_components": 1,
+          "hole_count": 85,
+          "largest_hole_pct": 0.146,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 5131.78,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "back-to-back-stamp",
+      "concept": "back-to-back dynasty marker",
+      "piece_type": "stat-stamp",
+      "anchor_word": "row",
+      "anchor_word_start": 22.74,
+      "land_at_seconds": 22.74,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 26.4,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 22
+      },
+      "size_pct": 43,
+      "rotation_deg": 4,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene4_back-to-back-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1142
+      },
+      "label_text": "BACK TO BACK",
+      "accent_hex": "#2E4057",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 4,
+      "entrance_start_seconds": 22.19,
+      "dwell_seconds": 3.66,
+      "public_asset": "public/elements/scene4_back-to-back-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1142
+        },
+        "metrics": {
+          "alpha_area_px": 1603465,
+          "significant_components": 1,
+          "hole_count": 0,
+          "largest_hole_pct": 0,
+          "grayscale_spread_p99": 54.0,
+          "laplacian_variance": 786.43,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "BACK TO BACK",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "global-debate",
+      "concept": "global football debate explodes",
+      "piece_type": "cutout",
+      "anchor_word": "explode",
+      "anchor_word_start": 27.56,
+      "land_at_seconds": 27.56,
+      "entrance_duration_seconds": 0.85,
+      "exit_at_seconds": 31.7,
+      "exit_style": "soften",
+      "enter_from": "right",
+      "final_position": {
+        "x": 50,
+        "y": 52
+      },
+      "size_pct": 64,
+      "rotation_deg": 2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene5_global-debate.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1738
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a globe surrounded by layered microphones, newspaper pages with only abstract unreadable marks, and excited football pundit silhouettes, no readable text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 5,
+      "entrance_start_seconds": 26.71,
+      "dwell_seconds": 4.14,
+      "public_asset": "public/elements/scene5_global-debate.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1738
+        },
+        "metrics": {
+          "alpha_area_px": 2622184,
+          "significant_components": 1,
+          "hole_count": 0,
+          "largest_hole_pct": 0,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 5853.46,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "records-shattered-stamp",
+      "concept": "records and debate headline",
+      "piece_type": "stat-stamp",
+      "anchor_word": "records",
+      "anchor_word_start": 29.22,
+      "land_at_seconds": 29.22,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 31.7,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 21
+      },
+      "size_pct": 46,
+      "rotation_deg": -4,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene5_records-shattered-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1404
+      },
+      "label_text": "RECORDS SHATTERED",
+      "accent_hex": "#B23A3A",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:visual-exact-machine-partial",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 5,
+      "entrance_start_seconds": 28.67,
+      "dwell_seconds": 2.48,
+      "public_asset": "public/elements/scene5_records-shattered-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:visual-exact-machine-partial",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1404
+        },
+        "metrics": {
+          "alpha_area_px": 1994813,
+          "significant_components": 1,
+          "hole_count": 5,
+          "largest_hole_pct": 0.0,
+          "grayscale_spread_p99": 134.0,
+          "laplacian_variance": 747.81,
+          "border_alpha_max": 0,
+          "ocr_similarity": 0.867
+        },
+        "ocr_detected": "CORDS SHATTERED",
+        "ocr_note": "Deskewed OCR similarity 0.867; 100% visual inspection confirms exact generated label.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "world-asks",
+      "concept": "the whole world asks one question",
+      "piece_type": "cutout",
+      "anchor_word": "People",
+      "anchor_word_start": 31.7,
+      "land_at_seconds": 31.7,
+      "entrance_duration_seconds": 0.0,
+      "exit_at_seconds": 38.5,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 55
+      },
+      "size_pct": 66,
+      "rotation_deg": -2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene6_world-asks.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1760
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a diverse crowd of football supporters around a large globe, hands raised in questioning gestures, no signs, no text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 6,
+      "entrance_start_seconds": 31.7,
+      "dwell_seconds": 6.8,
+      "public_asset": "public/elements/scene6_world-asks.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1760
+        },
+        "metrics": {
+          "alpha_area_px": 2602142,
+          "significant_components": 1,
+          "hole_count": 106,
+          "largest_hole_pct": 0.011,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 8095.44,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "greatest-dynasty-stamp",
+      "concept": "the central dynasty question",
+      "piece_type": "stat-stamp",
+      "anchor_word": "greatest",
+      "anchor_word_start": 35.64,
+      "land_at_seconds": 35.64,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 38.5,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 21
+      },
+      "size_pct": 47,
+      "rotation_deg": 3,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene6_greatest-dynasty-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1410
+      },
+      "label_text": "GREATEST DYNASTY?",
+      "accent_hex": "#8AA48D",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 6,
+      "entrance_start_seconds": 35.09,
+      "dwell_seconds": 2.86,
+      "public_asset": "public/elements/scene6_greatest-dynasty-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1410
+        },
+        "metrics": {
+          "alpha_area_px": 2185694,
+          "significant_components": 1,
+          "hole_count": 13,
+          "largest_hole_pct": 0.001,
+          "grayscale_spread_p99": 35.0,
+          "laplacian_variance": 684.3,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "GREATEST DYNASTY?",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "legendary-squad",
+      "concept": "every squad member becomes a legend",
+      "piece_type": "cutout",
+      "anchor_word": "Every",
+      "anchor_word_start": 38.5,
+      "land_at_seconds": 38.5,
+      "entrance_duration_seconds": 0.0,
+      "exit_at_seconds": 44.26,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 52
+      },
+      "size_pct": 70,
+      "rotation_deg": 2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene7_legendary-squad.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1541
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a heroic lineup of Argentina national-team football players in plain striped jerseys without logos, standing shoulder to shoulder in celebration",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 7,
+      "entrance_start_seconds": 38.5,
+      "dwell_seconds": 5.76,
+      "public_asset": "public/elements/scene7_legendary-squad.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1541
+        },
+        "metrics": {
+          "alpha_area_px": 2398508,
+          "significant_components": 1,
+          "hole_count": 117,
+          "largest_hole_pct": 0.124,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 4626.44,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "national-legends-stamp",
+      "concept": "players elevated to national legend status",
+      "piece_type": "stat-stamp",
+      "anchor_word": "legend",
+      "anchor_word_start": 41.16,
+      "land_at_seconds": 41.16,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 44.26,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 20
+      },
+      "size_pct": 43,
+      "rotation_deg": -3,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene7_national-legends-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1301
+      },
+      "label_text": "NATIONAL LEGENDS",
+      "accent_hex": "#E3B23C",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 7,
+      "entrance_start_seconds": 40.61,
+      "dwell_seconds": 3.1,
+      "public_asset": "public/elements/scene7_national-legends-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1301
+        },
+        "metrics": {
+          "alpha_area_px": 1845140,
+          "significant_components": 1,
+          "hole_count": 11,
+          "largest_hole_pct": 0.001,
+          "grayscale_spread_p99": 200.0,
+          "laplacian_variance": 726.33,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "NATIONAL LEGENDS",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "fireworks-sunrise",
+      "concept": "all-night celebration from fireworks to sunrise",
+      "piece_type": "cutout",
+      "anchor_word": "Fireworks",
+      "anchor_word_start": 44.26,
+      "land_at_seconds": 44.26,
+      "entrance_duration_seconds": 0.0,
+      "exit_at_seconds": 52.62,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 51
+      },
+      "size_pct": 68,
+      "rotation_deg": -2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene8_fireworks-sunrise.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1714
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "Buenos Aires football supporters celebrating in a city street beneath fireworks as dawn breaks, flags rendered without symbols or text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 8,
+      "entrance_start_seconds": 44.26,
+      "dwell_seconds": 8.36,
+      "public_asset": "public/elements/scene8_fireworks-sunrise.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1714
+        },
+        "metrics": {
+          "alpha_area_px": 2712214,
+          "significant_components": 1,
+          "hole_count": 21,
+          "largest_hole_pct": 0.01,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 6294.2,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "for-generations-stamp",
+      "concept": "a memory passed through generations",
+      "piece_type": "stat-stamp",
+      "anchor_word": "generations",
+      "anchor_word_start": 50.38,
+      "land_at_seconds": 50.38,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 52.62,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 20
+      },
+      "size_pct": 42,
+      "rotation_deg": 4,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene8_for-generations-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1015
+      },
+      "label_text": "FOR GENERATIONS",
+      "accent_hex": "#C86F5E",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 8,
+      "entrance_start_seconds": 49.83,
+      "dwell_seconds": 2.24,
+      "public_asset": "public/elements/scene8_for-generations-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1015
+        },
+        "metrics": {
+          "alpha_area_px": 1398128,
+          "significant_components": 1,
+          "hole_count": 15,
+          "largest_hole_pct": 0.0,
+          "grayscale_spread_p99": 149.0,
+          "laplacian_variance": 484.77,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "FOR GENERATIONS",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "argentina-question",
+      "concept": "Argentina faces the 2026 question",
+      "piece_type": "cutout",
+      "anchor_word": "Argentina",
+      "anchor_word_start": 53.0,
+      "land_at_seconds": 53.0,
+      "entrance_duration_seconds": 0.38,
+      "exit_at_seconds": 58.62,
+      "exit_style": "soften",
+      "enter_from": "bottom",
+      "final_position": {
+        "x": 50,
+        "y": 51
+      },
+      "size_pct": 62,
+      "rotation_deg": -2,
+      "z": 2,
+      "render_in_remotion": false,
+      "asset": "elements/scene9_argentina-question.png",
+      "natural_px": {
+        "w": 1363,
+        "h": 2336
+      },
+      "label_text": null,
+      "accent_hex": null,
+      "typography_role": null,
+      "visual_description": "a tense Argentina football supporter in a plain striped jersey, hands clasped, looking upward toward a World Cup-style trophy silhouette, no logos, no text",
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:no-readable-text",
+        "watermark": "pass",
+        "grayscale": "pass",
+        "sharpness": "pass"
+      },
+      "scene_index": 9,
+      "entrance_start_seconds": 52.62,
+      "dwell_seconds": 5.62,
+      "public_asset": "public/elements/scene9_argentina-question.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:no-readable-text",
+          "watermark": "pass",
+          "grayscale": "pass",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 1363,
+          "h": 2336
+        },
+        "metrics": {
+          "alpha_area_px": 1270836,
+          "significant_components": 1,
+          "hole_count": 0,
+          "largest_hole_pct": 0,
+          "grayscale_spread_p99": 0.0,
+          "laplacian_variance": 3766.72,
+          "border_alpha_max": 0,
+          "ocr_similarity": null
+        },
+        "ocr_detected": "",
+        "ocr_note": "Confidence-filtered OCR plus 100% visual inspection found no actual text; halftone false positives were rejected.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    },
+    {
+      "beat_id": "yes-or-no-stamp",
+      "concept": "direct audience vote",
+      "piece_type": "stat-stamp",
+      "anchor_word": "yes",
+      "anchor_word_start": 57.16,
+      "land_at_seconds": 57.16,
+      "entrance_duration_seconds": 0.55,
+      "exit_at_seconds": 58.62,
+      "exit_style": "out",
+      "enter_from": "stamp",
+      "final_position": {
+        "x": 50,
+        "y": 21
+      },
+      "size_pct": 43,
+      "rotation_deg": 3,
+      "z": 5,
+      "render_in_remotion": false,
+      "asset": "elements/scene9_yes-or-no-stamp.png",
+      "natural_px": {
+        "w": 2304,
+        "h": 1358
+      },
+      "label_text": "YES OR NO?",
+      "accent_hex": "#B23A3A",
+      "typography_role": "statement",
+      "visual_description": null,
+      "qa": {
+        "resolution": "pass",
+        "alpha": "pass",
+        "connectivity": "pass",
+        "holes": "pass",
+        "ocr": "pass:exact-match",
+        "watermark": "pass",
+        "grayscale": "n/a",
+        "sharpness": "pass"
+      },
+      "scene_index": 9,
+      "entrance_start_seconds": 56.61,
+      "dwell_seconds": 1.46,
+      "public_asset": "public/elements/scene9_yes-or-no-stamp.png",
+      "qa_report": {
+        "checks": {
+          "resolution": "pass",
+          "alpha": "pass",
+          "connectivity": "pass",
+          "holes": "pass",
+          "ocr": "pass:exact-match",
+          "watermark": "pass",
+          "grayscale": "n/a",
+          "sharpness": "pass"
+        },
+        "natural_px": {
+          "w": 2304,
+          "h": 1358
+        },
+        "metrics": {
+          "alpha_area_px": 1819530,
+          "significant_components": 1,
+          "hole_count": 3,
+          "largest_hole_pct": 0.004,
+          "grayscale_spread_p99": 159.0,
+          "laplacian_variance": 711.84,
+          "border_alpha_max": 0,
+          "ocr_similarity": 1.0
+        },
+        "ocr_detected": "YES OR NO?",
+        "ocr_note": "Deskewed multi-pass OCR exact match.",
+        "watermark_hits": [],
+        "regeneration_count": 0
+      }
+    }
+  ],
+  "qa_report": "qa_report.json",
+  "storyboard": "storyboard/storyboard.json"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "argentina-world-cup-2026-vox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Narration-synchronized 9:16 VOX-style Remotion project",
+  "scripts": {
+    "build": "remotion bundle src/index.ts",
+    "studio": "remotion studio src/index.ts",
+    "compositions": "remotion compositions src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.330",
+    "@remotion/media": "^4.0.330",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "^4.0.330"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
+}

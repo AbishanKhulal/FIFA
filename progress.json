@@ -17,7 +17,11 @@
     "sync-plan-audit",
     "parallel-image-generation",
     "background-removal",
-    "element-qa"
+    "element-qa",
+    "handoff-v4",
+    "style-lock",
+    "remotion-source",
+    "voiceover-copy"
   ],
   "elements": {
     "elements/scene1_stop-scrolling-stamp.png": "qa-passed",
@@ -40,5 +44,6 @@
     "elements/scene9_yes-or-no-stamp.png": "qa-passed"
   },
   "milestone_pushes": 4,
-  "zip_sha256": null
+  "zip_sha256": null,
+  "handoff_status": "source-ready-still-verification-pending"
 }

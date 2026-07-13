@@ -1,0 +1,13 @@
+Reference repository: https://github.com/ston6919/vox-style-video
+Primary style reference: VOX-STYLE.md
+
+Project reference elements:
+- Warm cream paper field with subtle ink grain
+- Grayscale halftone editorial cutouts
+- Transparent torn/sticker silhouettes
+- Brick red, mustard, navy, sage, and coral accent marks
+- Bold geometric statement stamps with baked text
+- Hard-offset ink shadows
+- Narration-anchored land-on-word entrances
+- Fast editorial exits preventing stale buildup
+- 9:16 safe-zone composition
