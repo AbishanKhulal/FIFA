@@ -12,9 +12,30 @@
     "audio_duration_seconds": 58.618776
   },
   "steps_completed": [
-    "github-preflight"
+    "github-preflight",
+    "parse-and-plan",
+    "sync-plan-audit"
   ],
-  "elements": {},
-  "milestone_pushes": 0,
+  "elements": {
+    "elements/scene1_stop-scrolling-stamp.png": "pending",
+    "elements/scene1_argentina-trophy.png": "pending",
+    "elements/scene2_referee-whistle.png": "pending",
+    "elements/scene2_champions-again-stamp.png": "pending",
+    "elements/scene3_stadium-crowd.png": "pending",
+    "elements/scene3_one-massive-party-stamp.png": "pending",
+    "elements/scene4_double-trophy.png": "pending",
+    "elements/scene4_back-to-back-stamp.png": "pending",
+    "elements/scene5_global-debate.png": "pending",
+    "elements/scene5_records-shattered-stamp.png": "pending",
+    "elements/scene6_world-asks.png": "pending",
+    "elements/scene6_greatest-dynasty-stamp.png": "pending",
+    "elements/scene7_legendary-squad.png": "pending",
+    "elements/scene7_national-legends-stamp.png": "pending",
+    "elements/scene8_fireworks-sunrise.png": "pending",
+    "elements/scene8_for-generations-stamp.png": "pending",
+    "elements/scene9_argentina-question.png": "pending",
+    "elements/scene9_yes-or-no-stamp.png": "pending"
+  },
+  "milestone_pushes": 2,
   "zip_sha256": null
 }
