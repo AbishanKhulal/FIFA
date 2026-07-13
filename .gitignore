@@ -1,3 +1,8 @@
+# Dependencies and build output
+node_modules/
+build/
+out/
+
 # Local references and transient generation files
 .references/
 scratch/
